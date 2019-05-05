@@ -1,50 +1,55 @@
-body{
-	background: url('../images/cloudBG.jpeg');
-	font-family: 'Raleway', sans-serif;
-	font-size: 25px;
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  height: 100%;
+  text-align: center;
+  font-size: 18px;
+  background: black;
+  background-repeat: no-repeat;
+}
+ 
+header {
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.6em;
+  margin-top: 10px;
+  background-color: #d7ee0a;
+  padding: 25px;
 }
 
-header{
-	margin-bottom: 20px;
+button {
+  width: 180px;
+  height: 60px;
+  font-size: 1.6em;
+  background-color: #86f10b;
+  margin-top: 30px;
+
 }
 
-.btn-primary,.reset{
-	background-color: #313477;
-	color: white;
-	font-family: 'Sigmar One', sans-serif;
-	font-size: 30px;
-	padding: 20px;
-	margin-top: 100px;
-}
-.btn-primary:hover, .reset:hover{
-	background-color: #202364;
+#time {
+  font-size: 1.2em;
+  margin-top: 10px;
+  color: #ff1200;
+  padding: 15px;
 }
 
-.container{
-	margin-top: 50px;
-	text-align: center;
-	height: 100%;
-	width: 700px;
+#question {
+  font-size: 1.4em;
+  padding: 5px;
+  margin: 5px;
+  color: white;
 }
 
-h2, #message, #finalMessage{
-	font-family: Sigmar One;
+#answer1, #answer2, #answer3, #answer4 {
+  font-size: 1.2em;
+  margin: 10px;
 }
 
-.thisChoice:hover{
-	background-color: #202364;
-	color: white;
-	padding: 10px;
+.answerinfo {
+  color: #4c3aee;
 }
 
-#gif{
-	margin: 30px;
-}
-
-@media screen and (max-width:640px){
-	.container{
-		width: 500px;
-		margin-top: 200px;
-		size: 200%;
-	}	
+.stats {
+  font-size: 1.1em;
+  color: #3304fb;
+  padding-top: 20px;
 }
